@@ -67,10 +67,11 @@ line-height: 150%;
   color: #696969;
 }
 
-.social > h3 {
-  font-size: 1.5em;
+.social h3 {
+  font-size: 1.7em;
   display: inline-block;
   color: green;
+  padding-left: .3em;
 }
 
 .fa-envelope-o {
@@ -255,9 +256,9 @@ body {
 /*links*/
 
 /* unvisited link */
-/*a:link {
-    color: red;
-}*/
+a:link {
+    color: green;
+}
 
 /* visited link */
 a:visited {
