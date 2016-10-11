@@ -1,0 +1,291 @@
+
+.things {
+  padding: 1em;
+}
+.things > a{
+line-height: 150%;
+  padding-left: .2em;
+  padding-right: .7em;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+
+.things > span{
+line-height: 150%;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+
+.intro > i {
+  color: lightgray;
+  font-size: 35px;
+}
+
+.intro { 
+  font-size: 110px;
+  font-family: 'Bungee Shade', cursive;
+  padding: 25.5px;
+/*  color: #ffdb58;
+*/
+  color: #ffe521;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.talking {
+  padding-top: 15px;
+  font-size: 1.15em;
+  color: #000;
+  line-height: 19px;
+  padding-bottom: 0;
+}
+
+.section {
+  background-color: #ff7996;
+/*  background-color: hotpink;
+*/  padding: 4px;
+  color: white;
+  font-size: 1.5em; 
+  font-weight: 600;
+}
+
+
+.col-lg-6 > h4 {
+  font-weight: 600;
+}
+
+.social {
+  font-size: .7em;
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  color: green;
+  color: #696969;
+}
+
+.social > h3 {
+  font-size: 1.5em;
+  display: inline-block;
+  color: green;
+}
+
+.fa-envelope-o {
+  color: green;
+}
+
+
+.byline {
+  /*background: #ffaae4;*/
+  background: #f6e1cc;
+  border-radius: 5px;
+  padding-right: 3px;
+  padding-left: 3px;
+  font-weight: 500;
+}
+
+.time {
+/*  color: #c8c8c8;
+  font-size: 90%;*/
+  background: #f6e7aa;
+  border-radius: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-weight: 500;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+img:hover{
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+/*  font-family: 'Roboto Slab', serif;
+*/}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10px;
+/*  border-bottom: 5px solid #e5e5e5;
+*/}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  /*border-bottom: 1px solid #e5e5e5;*/
+  background-image: url('https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif');
+  background-size: 35%;
+  color: #f00;
+  min-height: 350px;
+  position: relative;
+}
+
+.wrapper {
+   top: 50%;
+   left: 50%;
+   color: #fff;
+   position: absolute;
+   transform: translate(-50%, -50%);
+}
+
+.jumbotron .btn {
+  background-color: #f00;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+
+
+/* iphone6 and beyond  */
+@media screen and (max-width: 768px) {
+
+.intro { 
+  font-size: 98px;
+  padding: 22px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.section{
+
+/*  make child div larger than parent div */  
+    margin-left: -25px;
+    margin-right: -25px;
+    font-weight: 
+}
+ 
+}
+
+
+
+/* iphone5  */
+@media screen and (max-width: 350px) {
+
+.intro { 
+  font-size: 82px;
+  padding: 15px;
+  margin-left: 0;
+  padding-left: 0;
+}
+ 
+}
+
+/*links*/
+
+/* unvisited link */
+/*a:link {
+    color: red;
+}*/
+
+/* visited link */
+a:visited {
+    color: #198c19;
+    
+    /*color:#009dcd;*/
+}
+
+/* mouse over link */
+a:hover {
+/*    color: black;
+    background-color: hotpink;
+    text-decoration: none;*/
+
+
+    color: white;
+    background-color: green;
+    text-decoration: none;
+}
+
+
+.social > a:hover {
+    color: green;
+    background-color: white;
+    text-decoration: none;
+/*
+    color: black;
+    background-color: white;
+    text-decoration: none;*/
+
+}
