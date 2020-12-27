@@ -1,0 +1,172 @@
+/* Typography imported from Google Fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100&family=ZCOOL+XiaoWei&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'ZCOOL XiaoWei', serif
+}
+
+p, a, span {
+ font-family: 'Lato', sans-serif;
+}
+
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+h1 > span {
+    color:gray;
+    font-size: 0.25em;
+    font-weight: 100;
+    font-style: thin;
+}
+
+/* a {
+  background-color: goldenrod;
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  transition: all .3s;
+} */
+
+/* a:hover {
+  opacity: .6;
+} */
+
+/* Styles for the hero image */
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  /* background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e') center; */
+  /* background-size: cover; */
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+/* .hero > * {
+  color: white;
+} */
+
+.hero > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hero > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 2.2rem;
+}
+
+.hero > article > a {
+  padding: 1rem;
+  margin-top: .75rem;
+
+}
+
+/* project styles */
+.project {
+  /* padding: 2rem 2rem; */
+  /* max-width: 1200px;   */
+}
+
+.project > ul {
+  list-style-type: none; /* Remove bullets */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+  padding:0;
+}
+
+.project > ul > li {
+  /* border: 1px solid #E2E2E2;
+  border-radius: .5rem; */
+}
+
+.project > ul > li > figure {
+display: flex;
+justify-content: center;
+margin: auto;
+  max-height: 280px;
+  overflow: hidden;
+  /* border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem; */
+  position: relative;
+}
+
+.project > ul > li > figure > img {
+  width: 100%;
+}
+
+.project > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  /* background-color: rgba(0,0,0,.1); */
+  text-shadow: 2px 2px 8px #383838;
+  width: 100%;
+}
+
+.project > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.publication{
+  text-transform: uppercase;
+  font-size: .75rem;
+}
+.project > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0rem .75rem;
+  color: #666666;
+}
+
+.project > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+}
+
+.archive{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /* grid-template-rows: 25% 100px auto; */
+    column-gap: 10px;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .archive{
+        grid-template-columns: 15% 70%;
+        /* grid-template-rows: 25% 100px auto; */
+        column-gap: 10px;
+
+    }
+
+}
+
+/* footer */
+footer {
+  background-color: #fafafa;
+  padding: .75rem;
+  color: #333;
+  text-align: center;
+  font-size: .75rem;
+}
