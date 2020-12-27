@@ -11,6 +11,9 @@ p, a, span {
  font-family: 'Lato', sans-serif;
 }
 
+hr {
+  border-top: 0.6px dashed #fafafa;
+}
 
 /* Generic styles */
 html {
@@ -134,7 +137,7 @@ margin: auto;
   font-size: 1rem;
   line-height: 1.5;
   padding: 0rem .75rem;
-  color: #666666;
+  color: #333333;
 }
 
 .project > ul > li > a {
@@ -150,6 +153,16 @@ margin: auto;
     column-gap: 10px;
     padding: .75rem;
     font-size: 1rem;
+}
+
+.projectname > a{
+  text-decoration: none;
+  color: #3D9970;
+  /* text-decoration-style: dotted; */
+}
+
+.date {
+  color: rgb(153, 152, 152);
 }
 
 @media only screen and (min-width: 600px) {
