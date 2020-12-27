@@ -33,25 +33,8 @@ h1 > span {
     font-style: thin;
 }
 
-/* a {
-  background-color: goldenrod;
-  text-decoration: none;
-  color: white;
-  border-radius: .25rem;
-  text-align: center;
-  display: inline-block;
-  transition: all .3s;
-} */
-
-/* a:hover {
-  opacity: .6;
-} */
-
 /* Styles for the hero image */
 .hero {
-  /* Photo by mnm.all on Unsplash */
-  /* background: url('https://images.unsplash.com/photo-1518176258769-f227c798150e') center; */
-  /* background-size: cover; */
   padding: 4rem 2rem;
   /* grid styles */
   display: grid;
@@ -92,11 +75,6 @@ h1 > span {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2rem;
   padding:0;
-}
-
-.project > ul > li {
-  /* border: 1px solid #E2E2E2;
-  border-radius: .5rem; */
 }
 
 .project > ul > li > figure {
