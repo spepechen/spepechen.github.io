@@ -157,7 +157,7 @@ margin: auto;
 
 .projectname > a{
   text-decoration: none;
-  color: #3D9970;
+  color: lightslategray;
   /* text-decoration-style: dotted; */
 }
 
@@ -179,7 +179,7 @@ margin: auto;
 footer {
   background-color: #fafafa;
   padding: .75rem;
-  color: #333;
+  color: lightslategray;
   text-align: center;
   font-size: .75rem;
 }
