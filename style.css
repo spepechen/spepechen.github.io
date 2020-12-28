@@ -115,6 +115,7 @@ margin: auto;
 .publication{
   text-transform: uppercase;
   font-size: .75rem;
+  color:white;
 }
 .project > ul > li > p {
   font-size: 1rem;
