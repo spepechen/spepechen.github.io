@@ -1,6 +1,6 @@
 var config = {
     style: 'mapbox://styles/spepechen/cknpv6d4w18gf17ofzrllawt5',
-    accessToken: 'pk.eyJ1Ijoic3BlcGVjaGVuIiwiYSI6ImNrbm44NXljZjB6cmsyb24wNWxmMDBhNmwifQ.YqvwlI10OhYZtLYlgjiFgQ',
+    accessToken: 'pk.eyJ1Ijoic3BlcGVjaGVuIiwiYSI6ImNrbnhlZTV4czE1b3Eyb3JtOG9pYm90aHAifQ.5UuOJ1T_vAopR0Ni4qga3A',
     showMarkers: false,
     markerColor: '#333',
     theme: 'dark',
